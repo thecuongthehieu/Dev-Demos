@@ -1,4 +1,4 @@
-package jdbc.dev.demos;
+package jdbc.demos;
 
 public final class DatabaseConfig {
 	public static final String DB_HOST = "localhost";

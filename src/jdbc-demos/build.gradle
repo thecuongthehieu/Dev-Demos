@@ -43,7 +43,7 @@ task runWithExec(type: Exec) {
     dependsOn build
     group = "Execution"
     description = "Run the main class with ExecTask"
-    commandLine "java", "-classpath", sourceSets.main.runtimeClasspath.getAsPath(), "jdbc.dev.demos.DatabaseConnector"
+    commandLine "java", "-classpath", sourceSets.main.runtimeClasspath.getAsPath(), "jdbc.demos.DatabaseConnector"
 }
 
 task printSourceSetInformation() {

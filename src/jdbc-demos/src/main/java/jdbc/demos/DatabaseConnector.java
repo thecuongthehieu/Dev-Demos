@@ -1,4 +1,4 @@
-package jdbc.dev.demos;
+package jdbc.demos;
 
 import java.sql.*;
 
