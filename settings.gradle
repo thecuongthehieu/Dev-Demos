@@ -12,3 +12,6 @@ include 'src:jdbc-demos'
 findProject(':src:jdbc-demos')?.name = 'jdbc-demos'
 include 'src:hibernate-demos'
 findProject(':src:hibernate-demos')?.name = 'hibernate-demos'
+include 'src:redis-demos'
+findProject(':src:redis-demos')?.name = 'redis-demos'
+
