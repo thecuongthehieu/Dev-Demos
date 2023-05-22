@@ -16,4 +16,6 @@ include 'src:redis-demos'
 findProject(':src:redis-demos')?.name = 'redis-demos'
 include 'src:kafka-demos'
 findProject(':src:kafka-demos')?.name = 'kafka-demos'
+include 'src:docker-client-demos'
+findProject(':src:docker-client-demos')?.name = 'docker-client-demos'
 
