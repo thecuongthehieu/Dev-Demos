@@ -1,0 +1,14 @@
+phantom:
+  address: localhost:9898 
+  ammo_type: uri
+  ammofile: /var/loadtest/testdata/qpp_tmp.ammofile
+  load_profile:
+    load_type: rps
+    schedule: const(1, 1m)
+  headers:
+    - "[Cookie:vid=CJySVJoQ1bTTu1oGbu1uTC31STCSGQ6Q6yr6Wpp1ibiml0uMqBoV8ynuUKuWW]"
+  timeout: 5s
+console:
+  enabled: true 
+telegraf:
+  enabled: false 
