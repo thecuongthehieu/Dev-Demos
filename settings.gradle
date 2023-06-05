@@ -18,4 +18,5 @@ include 'src:kafka-demos'
 findProject(':src:kafka-demos')?.name = 'kafka-demos'
 include 'src:docker-client-demos'
 findProject(':src:docker-client-demos')?.name = 'docker-client-demos'
-
+include 'src:network-io-demos'
+findProject(':src:network-io-demos')?.name = 'network-io-demos'
