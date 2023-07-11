@@ -20,3 +20,6 @@ include 'src:docker-client-demos'
 findProject(':src:docker-client-demos')?.name = 'docker-client-demos'
 include 'src:network-io-demos'
 findProject(':src:network-io-demos')?.name = 'network-io-demos'
+include 'src:spring-framework-demos'
+findProject(':src:spring-framework-demos')?.name = 'spring-framework-demos'
+
